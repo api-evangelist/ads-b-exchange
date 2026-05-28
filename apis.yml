@@ -1,0 +1,32 @@
+aid: ads-b-exchange
+name: ADS-B Exchange
+description: "Access real-time and historical data of any and all airborne aircraft"
+url: https://www.adsbexchange.com/data/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Transportation"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Transportation
+  - Public APIs
+apis:
+  - name: ADS-B Exchange
+    description: "Access real-time and historical data of any and all airborne aircraft"
+    humanURL: https://www.adsbexchange.com/data/
+    baseURL: https://www.adsbexchange.com/data/
+    tags:
+      - Transportation
+    properties:
+      - type: Documentation
+        url: https://www.adsbexchange.com/data/
+common:
+  - type: Website
+    url: https://www.adsbexchange.com/data/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
